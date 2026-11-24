@@ -30,7 +30,7 @@ Explanation: No two distinct pairs of indices produce the same sum.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-24T17:55:13.991Z  
+**Submitted:** 2026-11-24T17:58:17.236Z  
 
 ```py
 from collections import defaultdict
