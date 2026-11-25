@@ -34,7 +34,7 @@ The second line contains $n$ space-separated integers representing the array's e
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T15:54:28.326Z  
+**Submitted:** 2026-11-25T15:50:18.441Z  
 
 ```py
 #!/bin/python3
