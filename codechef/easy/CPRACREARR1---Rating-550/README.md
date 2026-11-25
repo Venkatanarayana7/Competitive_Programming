@@ -15,7 +15,7 @@ Rearrange the code given, so that it does the above task.
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T14:11:36.763Z  
+**Submitted:** 2026-11-25T14:11:46.369Z  
 
 ```cpp
 #include <stdio.h>
