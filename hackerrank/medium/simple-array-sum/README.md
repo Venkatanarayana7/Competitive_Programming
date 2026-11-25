@@ -1,4 +1,4 @@
-# Solve Me First
+# Simple Array Sum
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -34,19 +34,42 @@ The second line contains $n$ space-separated integers representing the array's e
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-24T17:29:32.193Z  
+**Submitted:** 2026-11-25T15:54:28.326Z  
 
 ```py
+#!/bin/python3
 
+import math
+import os
+import random
+import re
+import sys
 
-def solveMeFirst(a,b):
-    return a+b
+#
+# Complete the 'simpleArraySum' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts INTEGER_ARRAY ar as parameter.
+#
 
+def simpleArraySum(ar):
+    sum = 0
+    for i in range(ar_count):
+        sum+= ar[i]
+    return sum
 
-num1 = int(input())
-num2 = int(input())
-res = solveMeFirst(num1,num2)
-print(res)
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    ar_count = int(input().strip())
+
+    ar = list(map(int, input().rstrip().split()))
+
+    result = simpleArraySum(ar)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
 
 ```
 
