@@ -25,7 +25,7 @@ Explanation: Numbers from 0 to 5 in increasing order are 0 1 2 3 4 5.
 **Language:** c(gcc5.4)  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T16:33:21.843Z  
+**Submitted:** 2026-11-25T16:36:46.312Z  
 
 ```c(gcc5.4)
 #include <stdio.h>
